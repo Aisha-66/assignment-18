@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js</title>
+</head>
+
+<body>
+    <script>
+
+        // Q1 - Write a function that takes your name and age as an input parameter and print it by using
+        // string concatenation.
+        function Data(name, age) {
+            console.log(name, age)
+        }
+        Data("Aisha", 21)
+
+        // // Q2 - Write a function name ‘Double’ that takes an input parameter and multiply that parameter
+        // // by 2 and store the result in a variable and call the function by passing an argument.
+
+        function Double(multiply) {
+            vara = 6
+            console.log(multiply * vara)
+
+        }
+        Double(2)
+        // //  Q3 - Write a function to print the square of a number by using function expression and that
+        // // function can be used as variable value for other variables.
+
+
+        // //   Q4 - Write an arrow function as an expression to check the age of the baby . If the age of the
+        // // baby is less than 18 print Baby else print adult.
+
+        function Check(age) {
+            if (age > 18) {
+                console.log("Baby");
+            }
+            else if (age < 18) {
+                console.log("adult");
+            }
+        }
+        Check(25);
+        Check(12);
+
+        // // Q5 - Write an arrow function and print a sum of two numbers by passing a single parameter
+        // // inside the arrow function.
+
+        var func = () => {
+            console.log(20 + 20)
+        }
+        func()
+
+        // // Q8 - Write an unnamed /anonymous function which calculates the area of a rectangle.
+        let show = function () {
+            console.log('Anonymous function');
+        };
+
+        show()
+
+        // // Q6 - Write an object ‘cities’ and loop values of the object's properties by using for... in Loop
+        // // and print them.
+
+        const Cities = {
+            a: 'Karachi',
+            b: 'Lahore',
+            c: 'Islamabad'
+
+        }
+        for (let key in Cities) {
+            console.log(`${key} => ${Cities[key]}`);
+        }
+
+        // // Q7 - Write a for...of loop to traverse the array and print the elements of an array with indices.
+
+        let numb = [0,1,2,3,4,5,6]
+
+        for (let numvalues of numb) {
+            console.log(numvalues)
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
